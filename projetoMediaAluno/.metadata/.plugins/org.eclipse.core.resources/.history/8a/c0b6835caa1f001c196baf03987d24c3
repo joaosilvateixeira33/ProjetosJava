@@ -1,0 +1,19 @@
+package principal;
+
+import java.util.Scanner;
+
+public class program {
+	public static void main(String[] args) {
+		Scanner professorDigita = new Scanner(System.in);
+		System.out.println("Digite o nome do aluno: ");
+		String nomeAluno = professorDigita.nextLine();
+		System.out.println("Digite nota do 1°bimestre: ");
+		int nota1 = professorDigita.nextInt();
+		
+		System.out.println(nota1);
+		professorDigita.close();
+	}
+	
+
+	
+}

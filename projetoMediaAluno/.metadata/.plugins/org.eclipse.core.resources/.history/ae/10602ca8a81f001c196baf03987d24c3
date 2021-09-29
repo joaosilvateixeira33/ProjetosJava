@@ -1,0 +1,20 @@
+package principal;
+
+public class program {
+	public static void main(String[] args) {
+		//M(x) = 2x²+2x²+2
+		//N(x) = 2x² +2
+		//S(x) = M + N
+		
+		int potencia = (int)Math.pow(2, 2);
+		int m = potencia + potencia +2;
+		int n = potencia +2;
+		
+		int s = m + n;
+		
+		System.out.println(s);
+	}
+	
+
+	
+}

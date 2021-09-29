@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\joao marcos\Desktop\Cursos\Java\Meus-Projetos\projetoMediaAluno\.metadata\.plugins\org.eclipse.jdt.core
+2367720405.index
+1865797976.index
+2349351943.index
