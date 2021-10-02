@@ -19,4 +19,5 @@ public abstract class CodigoBarra {
 	}
 	
 	protected abstract boolean validar(String codigoBarra);
+
 }
