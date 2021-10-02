@@ -1,5 +1,4 @@
 package sistema;
-import java.util.Random;
 import java.util.Scanner;
 
 public class CodigoBarraEAN13 extends CodigoBarra{
@@ -21,24 +20,14 @@ public class CodigoBarraEAN13 extends CodigoBarra{
 		
 	}
 	
-	public static String gerarCodigoBarras(int digitos) {
-		StringBuilder text = new StringBuilder();
-		Random random = new Random();
-		for(int i = 0; i < digitos; i++) {
-			text.append(random.nextInt(10));
-		}
-		
-		return text.toString();
-	}
-	S
+	
 	public static void main(String[] args) {
-//		Scanner user = new Scanner(System.in);
-//		System.out.println("Digite o codigo de barras: ");
-//		String codigo = user.next();
-//		user.close();
+		Scanner user = new Scanner(System.in);
+		System.out.println("Digite o codigo de barras: ");
+		String codigo = user.next();
+		user.close();
 		
 		
-		String codigo = gerarCodigoBarras();
 		
 		CodigoBarra codBarra1 = new CodigoBarraEAN13(codigo);
 		System.out.println("Numero codigo de barras: "+ codBarra1.getCodigoBarra());
